@@ -11,6 +11,16 @@ import mopImg             from '../assets/Mop cleaner and tub.png';
 import lunchBagImg        from '../assets/Lunch box and carrier.png';
 import perfumeBottlesImg  from '../assets/Perfume bottles.png';
 import flowerPlotImg      from '../assets/Flower plot.png';
+import yellowDaisyPotImg  from '../assets/ChatGPT Image Jun 30, 2026, 08_33_08 AM (1).png';
+import candyJarImg        from '../assets/ChatGPT Image Jun 30, 2026, 08_33_08 AM (2).png';
+import dinoToyImg         from '../assets/ChatGPT Image Jun 30, 2026, 08_33_08 AM (3).png';
+import pedalBinImg        from '../assets/ChatGPT Image Jun 30, 2026, 08_33_08 AM (4).png';
+import teddyBearImg       from '../assets/ChatGPT Image Jun 30, 2026, 08_33_08 AM (5).png';
+import airFreshenerImg    from '../assets/ChatGPT Image Jun 30, 2026, 08_33_09 AM (6).png';
+import handMirrorImg      from '../assets/ChatGPT Image Jun 30, 2026, 08_33_09 AM (7).png';
+import toyExcavatorImg    from '../assets/ChatGPT Image Jun 30, 2026, 08_33_09 AM (8).png';
+import floralContainerImg from '../assets/ChatGPT Image Jun 30, 2026, 08_33_10 AM (9).png';
+import goldVaseImg        from '../assets/ChatGPT Image Jun 30, 2026, 08_33_10 AM (10).png';
 
 const PRODUCTS = [
   { id: 'p1',  name: 'Premium Perfume Bottle', price: '₹149', oldPrice: '₹299', img: perfumeBottleImg,   category: 'Perfumes', rating: 4.8, reviews: 124, badge: 'Best Seller', badgeColor: '#f97316', emoji: '🌺' },
@@ -23,6 +33,16 @@ const PRODUCTS = [
   { id: 'p8',  name: 'Lunch Box Carrier Bag',    price: '₹99',  oldPrice: '₹149', img: lunchBagImg,        category: 'Bags',     rating: 4.4, reviews: 72,  badge: 'Value',     badgeColor: '#16a34a', emoji: '🎒' },
   { id: 'p9',  name: 'Perfume Bottles Set',      price: '₹299', oldPrice: '₹499', img: perfumeBottlesImg,  category: 'Perfumes', rating: 4.9, reviews: 196, badge: 'Premium',   badgeColor: '#c084fc', emoji: '🌺' },
   { id: 'p10', name: 'Flower Pot Set',            price: '₹149', oldPrice: '₹249', img: flowerPlotImg,      category: 'Decor',    rating: 4.7, reviews: 54,  badge: 'New',       badgeColor: '#f43f5e', emoji: '🌷' },
+  { id: 'p11', name: 'Yellow Daisy Flower Pot',  price: '₹149', oldPrice: '₹249', img: yellowDaisyPotImg,  category: 'Decor',    rating: 4.8, reviews: 37,  badge: 'New',       badgeColor: '#8b5cf6', emoji: '🌼' },
+  { id: 'p12', name: 'Decorative Candy Jar',     price: '₹99',  oldPrice: '₹179', img: candyJarImg,        category: 'Decor',    rating: 4.5, reviews: 62,  badge: 'Trending',  badgeColor: '#ec4899', emoji: '🍬' },
+  { id: 'p13', name: 'Dino Rubber Toy',          price: '₹99',  oldPrice: '₹199', img: dinoToyImg,         category: 'Toys',     rating: 4.6, reviews: 48,  badge: 'Kids Fav',  badgeColor: '#16a34a', emoji: '🦕' },
+  { id: 'p14', name: 'Pedal Dustbin',            price: '₹199', oldPrice: '₹349', img: pedalBinImg,        category: 'Storage',  rating: 4.7, reviews: 115, badge: 'Top Rated', badgeColor: '#f97316', emoji: '🗑️' },
+  { id: 'p15', name: 'Pink Teddy Bear',          price: '₹149', oldPrice: '₹299', img: teddyBearImg,       category: 'Toys',     rating: 4.9, reviews: 203, badge: 'Best Seller', badgeColor: '#ec4899', emoji: '🧸' },
+  { id: 'p16', name: 'Air Freshener Spray',      price: '₹99',  oldPrice: '₹179', img: airFreshenerImg,    category: 'Home',     rating: 4.6, reviews: 91,  badge: 'Popular',   badgeColor: '#0d9488', emoji: '🌬️' },
+  { id: 'p17', name: 'Orange Hand Mirror',       price: '₹99',  oldPrice: '₹149', img: handMirrorImg,      category: 'Accessories', rating: 4.5, reviews: 77, badge: 'Value',  badgeColor: '#f97316', emoji: '🪞' },
+  { id: 'p18', name: 'Toy Excavator Truck',      price: '₹149', oldPrice: '₹249', img: toyExcavatorImg,    category: 'Toys',     rating: 4.7, reviews: 59,  badge: 'Hot Deal',  badgeColor: '#eab308', emoji: '🚜' },
+  { id: 'p19', name: 'Floral Storage Container', price: '₹99',  oldPrice: '₹169', img: floralContainerImg, category: 'Storage',  rating: 4.6, reviews: 84,  badge: 'New',       badgeColor: '#3b82f6', emoji: '🌸' },
+  { id: 'p20', name: 'Golden Striped Vase',      price: '₹199', oldPrice: '₹349', img: goldVaseImg,        category: 'Decor',    rating: 4.8, reviews: 42,  badge: 'Premium',   badgeColor: '#ca8a04', emoji: '🏺' },
 ];
 
 const WAIcon = () => (
